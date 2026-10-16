@@ -1,0 +1,54 @@
+{
+  "tests": 6,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AverageTests",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "Integers",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 6
+        },
+        {
+          "name": "Doubles",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "name": "RandomTests",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IntegersInRange",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 15
+        },
+        {
+          "name": "DoublesInRange",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "FailureDemo",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DISABLED_Expect",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 27
+        },
+        {
+          "name": "DISABLED_Assert",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/5dz\/5\/tests\/test_average.cpp",
+          "line": 32
+        }
+      ]
+    }
+  ]
+}

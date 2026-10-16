@@ -1,0 +1,141 @@
+Start testing: Oct 16 16:47 +07
+----------------------------------------------------------
+1/6 Testing: AverageTests.Integers
+1/6 Test: AverageTests.Integers
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=AverageTests.Integers" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"AverageTests.Integers" start time: Oct 16 16:47 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AverageTests.Integers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AverageTests
+[ RUN      ] AverageTests.Integers
+[       OK ] AverageTests.Integers (0 ms)
+[----------] 1 test from AverageTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AverageTests.Integers" end time: Oct 16 16:47 +07
+"AverageTests.Integers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: AverageTests.Doubles
+2/6 Test: AverageTests.Doubles
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=AverageTests.Doubles" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"AverageTests.Doubles" start time: Oct 16 16:47 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AverageTests.Doubles
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AverageTests
+[ RUN      ] AverageTests.Doubles
+[       OK ] AverageTests.Doubles (0 ms)
+[----------] 1 test from AverageTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AverageTests.Doubles" end time: Oct 16 16:47 +07
+"AverageTests.Doubles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: RandomTests.IntegersInRange
+3/6 Test: RandomTests.IntegersInRange
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=RandomTests.IntegersInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"RandomTests.IntegersInRange" start time: Oct 16 16:47 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RandomTests.IntegersInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomTests
+[ RUN      ] RandomTests.IntegersInRange
+[       OK ] RandomTests.IntegersInRange (0 ms)
+[----------] 1 test from RandomTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RandomTests.IntegersInRange" end time: Oct 16 16:47 +07
+"RandomTests.IntegersInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: RandomTests.DoublesInRange
+4/6 Test: RandomTests.DoublesInRange
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=RandomTests.DoublesInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"RandomTests.DoublesInRange" start time: Oct 16 16:47 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RandomTests.DoublesInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomTests
+[ RUN      ] RandomTests.DoublesInRange
+[       OK ] RandomTests.DoublesInRange (0 ms)
+[----------] 1 test from RandomTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RandomTests.DoublesInRange" end time: Oct 16 16:47 +07
+"RandomTests.DoublesInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: FailureDemo.Expect
+5/6 Test: FailureDemo.Expect
+Command: ""
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"FailureDemo.Expect" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailureDemo.Expect" end time: Oct 16 16:47 +07
+"FailureDemo.Expect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: FailureDemo.Assert
+6/6 Test: FailureDemo.Assert
+Command: ""
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
+"FailureDemo.Assert" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailureDemo.Assert" end time: Oct 16 16:47 +07
+"FailureDemo.Assert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 16 16:47 +07

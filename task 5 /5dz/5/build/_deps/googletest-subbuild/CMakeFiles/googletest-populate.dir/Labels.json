@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule"
+		},
+		{
+			"file" : "/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/5dz/5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

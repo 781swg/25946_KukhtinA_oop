@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/.vscode",
+      "program": "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/.vscode/build/Debug/outDebug"
+    }
+  ]
+}
