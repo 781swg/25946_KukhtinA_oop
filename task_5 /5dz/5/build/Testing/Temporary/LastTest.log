@@ -1,10 +1,10 @@
-Start testing: Oct 16 16:47 +07
+Start testing: Oct 16 17:32 +07
 ----------------------------------------------------------
 1/6 Testing: AverageTests.Integers
 1/6 Test: AverageTests.Integers
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=AverageTests.Integers" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
-"AverageTests.Integers" start time: Oct 16 16:47 +07
+"AverageTests.Integers" start time: Oct 16 17:32 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = AverageTests.Integers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"AverageTests.Integers" end time: Oct 16 16:47 +07
+"AverageTests.Integers" end time: Oct 16 17:32 +07
 "AverageTests.Integers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/6 Test: AverageTests.Doubles
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=AverageTests.Doubles" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
-"AverageTests.Doubles" start time: Oct 16 16:47 +07
+"AverageTests.Doubles" start time: Oct 16 17:32 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = AverageTests.Doubles
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"AverageTests.Doubles" end time: Oct 16 16:47 +07
+"AverageTests.Doubles" end time: Oct 16 17:32 +07
 "AverageTests.Doubles" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/6 Test: RandomTests.IntegersInRange
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=RandomTests.IntegersInRange" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
-"RandomTests.IntegersInRange" start time: Oct 16 16:47 +07
+"RandomTests.IntegersInRange" start time: Oct 16 17:32 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = RandomTests.IntegersInRange
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RandomTests.IntegersInRange" end time: Oct 16 16:47 +07
+"RandomTests.IntegersInRange" end time: Oct 16 17:32 +07
 "RandomTests.IntegersInRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/6 Test: RandomTests.DoublesInRange
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests/average_tests" "--gtest_filter=RandomTests.DoublesInRange" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/tests
-"RandomTests.DoublesInRange" start time: Oct 16 16:47 +07
+"RandomTests.DoublesInRange" start time: Oct 16 17:32 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/5dz/5/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = RandomTests.DoublesInRange
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RandomTests.DoublesInRange" end time: Oct 16 16:47 +07
+"RandomTests.DoublesInRange" end time: Oct 16 17:32 +07
 "RandomTests.DoublesInRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -119,7 +119,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FailureDemo.Expect" end time: Oct 16 16:47 +07
+"FailureDemo.Expect" end time: Oct 16 17:32 +07
 "FailureDemo.Expect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,8 +134,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FailureDemo.Assert" end time: Oct 16 16:47 +07
+"FailureDemo.Assert" end time: Oct 16 17:32 +07
 "FailureDemo.Assert" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 16 16:47 +07
+End testing: Oct 16 17:32 +07

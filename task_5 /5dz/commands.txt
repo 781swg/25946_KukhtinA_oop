@@ -1,0 +1,12 @@
+
+с тестом
+
+cmake -S . -B build -DBUILD_TESTS=ON
+cmake --build build
+ctest --test-dir build --output-on-failure
+
+без тестов
+
+cmake -S . -B build -DBUILD_TESTS=OFF
+cmake --build build
+./build/program
