@@ -57,7 +57,7 @@ int main() {
 
     // обработка list через range-based for
     for (T1 value : lst) {
-        lst_result.push_back(mod::average<T1, T2>(value, second_arg));
+        lst_result.push_back(mod::average<T1, T2>(value, second_arg)); // значение и один общий случаный дабл
     }
 
     // обработка deque обычным for
@@ -67,7 +67,7 @@ int main() {
 
     // строки будущей markdown таблицы
     std::ostringstream header;
-    std::ostringstream separator;
+    std::ostringstream separator; // ---
     std::ostringstream arr_row;
     std::ostringstream arr_result_row;
     std::ostringstream vec_row;
@@ -149,3 +149,9 @@ int main() {
 
     return 0;
 }
+
+
+// array - массив фиксированного размера, есть доступ по индексу [].
+// vector - массив, который может менять размер, тоже есть [].
+// list - связный список, нет доступа через [], элементы обходят итератором.
+// deque - двусторонняя очередь, размер меняется, есть [], удобно добавлять и в начало, и в конец.
