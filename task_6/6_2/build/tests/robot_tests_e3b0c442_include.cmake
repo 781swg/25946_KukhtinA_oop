@@ -1,0 +1,5 @@
+if(EXISTS "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests_e3b0c442_tests.cmake")
+  include("/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests_e3b0c442_tests.cmake")
+else()
+  add_test(robot_tests_NOT_BUILT robot_tests_NOT_BUILT)
+endif()

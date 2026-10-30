@@ -1,0 +1,147 @@
+Start testing: Oct 23 15:50 +07
+----------------------------------------------------------
+1/5 Testing: RobotTests.DefaultConstructor
+1/5 Test: RobotTests.DefaultConstructor
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
+"RobotTests.DefaultConstructor" start time: Oct 23 15:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RobotTests.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RobotTests
+[ RUN      ] RobotTests.DefaultConstructor
+конструктор по умолчанию | R1
+[       OK ] RobotTests.DefaultConstructor (0 ms)
+[----------] 1 test from RobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RobotTests.DefaultConstructor" end time: Oct 23 15:50 +07
+"RobotTests.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: RobotTests.InitializationAndNormalization
+2/5 Test: RobotTests.InitializationAndNormalization
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.InitializationAndNormalization" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
+"RobotTests.InitializationAndNormalization" start time: Oct 23 15:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RobotTests.InitializationAndNormalization
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RobotTests
+[ RUN      ] RobotTests.InitializationAndNormalization
+инициализирующий конструктор | R1
+[       OK ] RobotTests.InitializationAndNormalization (0 ms)
+[----------] 1 test from RobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RobotTests.InitializationAndNormalization" end time: Oct 23 15:50 +07
+"RobotTests.InitializationAndNormalization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: RobotTests.GettersAndSetters
+3/5 Test: RobotTests.GettersAndSetters
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.GettersAndSetters" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
+"RobotTests.GettersAndSetters" start time: Oct 23 15:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RobotTests.GettersAndSetters
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RobotTests
+[ RUN      ] RobotTests.GettersAndSetters
+конструктор по умолчанию | R1
+[       OK ] RobotTests.GettersAndSetters (0 ms)
+[----------] 1 test from RobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RobotTests.GettersAndSetters" end time: Oct 23 15:50 +07
+"RobotTests.GettersAndSetters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: RobotTests.CopyConstructor
+4/5 Test: RobotTests.CopyConstructor
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.CopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
+"RobotTests.CopyConstructor" start time: Oct 23 15:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RobotTests.CopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RobotTests
+[ RUN      ] RobotTests.CopyConstructor
+инициализирующий конструктор | R1
+конструктор копирования | R2
+[       OK ] RobotTests.CopyConstructor (0 ms)
+[----------] 1 test from RobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RobotTests.CopyConstructor" end time: Oct 23 15:50 +07
+"RobotTests.CopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: RobotTests.AssignmentAndSelfAssignment
+5/5 Test: RobotTests.AssignmentAndSelfAssignment
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.AssignmentAndSelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
+"RobotTests.AssignmentAndSelfAssignment" start time: Oct 23 15:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RobotTests.AssignmentAndSelfAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RobotTests
+[ RUN      ] RobotTests.AssignmentAndSelfAssignment
+инициализирующий конструктор | R1
+конструктор по умолчанию | R2
+оператор присваивания | R2
+оператор присваивания | R2
+[       OK ] RobotTests.AssignmentAndSelfAssignment (0 ms)
+[----------] 1 test from RobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RobotTests.AssignmentAndSelfAssignment" end time: Oct 23 15:50 +07
+"RobotTests.AssignmentAndSelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 15:50 +07

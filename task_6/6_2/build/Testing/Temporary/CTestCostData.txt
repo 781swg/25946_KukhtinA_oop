@@ -1,0 +1,6 @@
+RobotTests.DefaultConstructor 1 0.0138662
+RobotTests.InitializationAndNormalization 1 0.0112912
+RobotTests.GettersAndSetters 1 0.00777175
+RobotTests.CopyConstructor 1 0.00717808
+RobotTests.AssignmentAndSelfAssignment 1 0.00938921
+---

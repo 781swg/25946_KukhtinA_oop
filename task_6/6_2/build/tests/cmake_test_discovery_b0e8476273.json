@@ -1,0 +1,37 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RobotTests",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/25946_KukhtinA_oop\/task_6\/6_2\/tests\/test_robot.cpp",
+          "line": 5
+        },
+        {
+          "name": "InitializationAndNormalization",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/25946_KukhtinA_oop\/task_6\/6_2\/tests\/test_robot.cpp",
+          "line": 17
+        },
+        {
+          "name": "GettersAndSetters",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/25946_KukhtinA_oop\/task_6\/6_2\/tests\/test_robot.cpp",
+          "line": 25
+        },
+        {
+          "name": "CopyConstructor",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/25946_KukhtinA_oop\/task_6\/6_2\/tests\/test_robot.cpp",
+          "line": 43
+        },
+        {
+          "name": "AssignmentAndSelfAssignment",
+          "file": "\/Users\/alekseikuhtin\/Desktop\/NSU 2 course\/\u00D0\u009E\u00D0\u009E\u00D0\u009F\/25946_KukhtinA_oop\/task_6\/6_2\/tests\/test_robot.cpp",
+          "line": 55
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/CMakeFiles/program.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/CMakeFiles/edit_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/CMakeFiles/rebuild_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/my_lib/CMakeFiles/robot.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/my_lib/CMakeFiles/edit_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_1/build/my_lib/CMakeFiles/rebuild_cache.dir
