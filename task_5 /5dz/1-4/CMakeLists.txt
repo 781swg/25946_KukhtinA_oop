@@ -1,41 +1,18 @@
 cmake_minimum_required(VERSION 3.14)
 project(OOP_05 LANGUAGES CXX)
 
-# стандарт c++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# подключаем библиотеку
+# The library module is required by both the application and the tests.
 add_subdirectory(my_lib)
 
-# создаем программу и подключаем библиотеку
-add_executable(program main.cpp)
-target_link_libraries(program PRIVATE my_functions)
+# The executable program is configured by its own module.
+add_subdirectory(app)
 
-# включение и отключение тестов
+# Google Test is an optional module.
 option(BUILD_TESTS "Build tests using Google Test" OFF)
-
 if(BUILD_TESTS)
-    # ищем установленный google test
-    find_package(GTest CONFIG QUIET)
-
-    if(NOT GTest_FOUND)
-        # скачиваем google test
-        include(FetchContent)
-        FetchContent_Declare(
-            googletest
-            URL https://github.com/google/googletest/archive/refs/tags/v1.15.2.zip
-            DOWNLOAD_EXTRACT_TIMESTAMP TRUE
-        )
-
-        # настройка для windows
-        set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-        FetchContent_MakeAvailable(googletest)
-    endif()
-
-    # включаем тестирование
     enable_testing()
-
-    # подключаем папку с тестами
     add_subdirectory(tests)
 endif()

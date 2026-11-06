@@ -1,0 +1,5 @@
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/5/build_run/CMakeFiles/program.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/5/build_run/CMakeFiles/edit_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/5/build_run/CMakeFiles/rebuild_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/5/build_run/my_lib/CMakeFiles/edit_cache.dir
+/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/5/build_run/my_lib/CMakeFiles/rebuild_cache.dir
