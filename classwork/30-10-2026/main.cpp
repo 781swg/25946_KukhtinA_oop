@@ -1,4 +1,5 @@
 #include "factory.h"
+#include "squad.h"
 
 #include <iostream>
 
@@ -26,5 +27,28 @@ int main() {
 
         std::cout << "--- Destructors ---\n";
     }
+    std::cout << "--- 9.III: aggregation ---\n";
+    {
+        std::array<Robot, 5> externalRobots;
+        const int count = Robot::getObjectCount();
+        {
+            const AggregatedSquad squad({externalRobots[0], externalRobots[1],
+                                         externalRobots[2], externalRobots[3],
+                                         externalRobots[4]});
+            squad.printInfo();
+            std::cout << "Before squad destruction: " << Robot::getObjectCount() << '\n';
+        }
+        std::cout << "After squad destruction: " << Robot::getObjectCount()
+                  << " (still " << count << ")\n";
+        externalRobots[0].printInfo();
+    }
+
+    std::cout << "--- 9.III: composition ---\n";
+    {
+        const ComposedSquad squad;
+        squad.printInfo();
+        std::cout << "Before squad destruction: " << Robot::getObjectCount() << '\n';
+    }
+    std::cout << "After squad destruction: " << Robot::getObjectCount() << '\n';
     std::cout << "Objects left: " << Robot::getObjectCount() << '\n';
 }

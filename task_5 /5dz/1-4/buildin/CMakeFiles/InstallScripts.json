@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/my_lib/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/app/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/tests/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/_deps/googletest-build/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/alekseikuhtin/Desktop/NSU 2 course/\u041e\u041e\u041f/25946_KukhtinA_oop/task_5 /5dz/1-4/buildin/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

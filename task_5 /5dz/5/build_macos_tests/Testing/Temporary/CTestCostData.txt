@@ -1,0 +1,7 @@
+AverageTests.Integers 1 0.0100454
+AverageTests.Doubles 1 0.00810546
+RandomTests.IntegersInRange 1 0.00835279
+RandomTests.DoublesInRange 1 0.00808963
+FailureDemo.Expect 0 0
+FailureDemo.Assert 0 0
+---

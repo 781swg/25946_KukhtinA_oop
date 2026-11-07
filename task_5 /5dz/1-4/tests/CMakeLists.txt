@@ -11,7 +11,7 @@ if(NOT TARGET GTest::gtest_main)
     FetchContent_MakeAvailable(googletest)
 endif()
 
-add_executable(average_tests test_average.cpp) // тестовая программа
+add_executable(average_tests test_average.cpp) # тестовая программа
 target_link_libraries(average_tests PRIVATE my_functions GTest::gtest_main)
 
 # Register individual Google Test cases with CTest.

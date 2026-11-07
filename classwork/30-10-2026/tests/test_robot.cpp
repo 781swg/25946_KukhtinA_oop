@@ -1,4 +1,5 @@
 #include "factory.h"
+#include "squad.h"
 
 #include <gtest/gtest.h>
 #include <memory>
@@ -190,4 +191,42 @@ TEST_F(RobotTest, ManufacturerAndModelFollowCopyAndMove) {
     target = std::move(*robot);
     EXPECT_EQ(target.getManufacturer(), "Factory A");
     EXPECT_EQ(target.getModel(), "Q-2");
+}
+
+TEST_F(RobotTest, AggregationDoesNotCreateOrDestroyRobots) {
+    std::array<Robot, 5> externalRobots;
+    const int count = Robot::getObjectCount();
+    {
+        AggregatedSquad squad({externalRobots[0], externalRobots[1],
+                               externalRobots[2], externalRobots[3], externalRobots[4]});
+        EXPECT_EQ(Robot::getObjectCount(), count);
+        EXPECT_EQ(&squad.getRobot(0), &externalRobots[0]);
+        const Administrator admin;
+        admin.setModel(squad.getRobot(0), "Squad-Q");
+        EXPECT_EQ(externalRobots[0].getModel(), "Squad-Q");
+        EXPECT_THROW(squad.getRobot(5), std::out_of_range);
+        const AggregatedSquad& view = squad;
+        EXPECT_EQ(&view.getRobot(4), &externalRobots[4]);
+    }
+    EXPECT_EQ(Robot::getObjectCount(), count);
+    EXPECT_EQ(externalRobots[0].getModel(), "Squad-Q");
+}
+
+TEST_F(RobotTest, CompositionOwnsFiveDistinctRobots) {
+    const int count = Robot::getObjectCount();
+    {
+        ComposedSquad squad;
+        EXPECT_EQ(Robot::getObjectCount(), count + 5);
+        const Administrator admin;
+        admin.setModel(squad.getRobot(0), "Owned-Q");
+        const ComposedSquad& view = squad;
+        EXPECT_EQ(view.getRobot(0).getModel(), "Owned-Q");
+        for (std::size_t i = 0; i < 5; ++i) {
+            for (std::size_t j = i + 1; j < 5; ++j) {
+                EXPECT_NE(view.getRobot(i).getId(), view.getRobot(j).getId());
+            }
+        }
+        EXPECT_THROW(squad.getRobot(5), std::out_of_range);
+    }
+    EXPECT_EQ(Robot::getObjectCount(), count);
 }

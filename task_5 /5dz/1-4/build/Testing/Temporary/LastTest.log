@@ -1,0 +1,114 @@
+Start testing: Nov 06 18:03 +07
+----------------------------------------------------------
+1/5 Testing: AverageTests.NormalNumbers
+1/5 Test: AverageTests.NormalNumbers
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests/average_tests" "--gtest_filter=AverageTests.NormalNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests
+"AverageTests.NormalNumbers" start time: Nov 06 18:03 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AverageTests.NormalNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AverageTests
+[ RUN      ] AverageTests.NormalNumbers
+[       OK ] AverageTests.NormalNumbers (0 ms)
+[----------] 1 test from AverageTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AverageTests.NormalNumbers" end time: Nov 06 18:03 +07
+"AverageTests.NormalNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: AverageTests.NegativeNumbers
+2/5 Test: AverageTests.NegativeNumbers
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests/average_tests" "--gtest_filter=AverageTests.NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests
+"AverageTests.NegativeNumbers" start time: Nov 06 18:03 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AverageTests.NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AverageTests
+[ RUN      ] AverageTests.NegativeNumbers
+[       OK ] AverageTests.NegativeNumbers (0 ms)
+[----------] 1 test from AverageTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AverageTests.NegativeNumbers" end time: Nov 06 18:03 +07
+"AverageTests.NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: RandomTests.ResultInExpectedRange
+3/5 Test: RandomTests.ResultInExpectedRange
+Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests/average_tests" "--gtest_filter=RandomTests.ResultInExpectedRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests
+"RandomTests.ResultInExpectedRange" start time: Nov 06 18:03 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RandomTests.ResultInExpectedRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomTests
+[ RUN      ] RandomTests.ResultInExpectedRange
+[       OK ] RandomTests.ResultInExpectedRange (0 ms)
+[----------] 1 test from RandomTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RandomTests.ResultInExpectedRange" end time: Nov 06 18:03 +07
+"RandomTests.ResultInExpectedRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: FailureDemo.Expect
+4/5 Test: FailureDemo.Expect
+Command: ""
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests
+"FailureDemo.Expect" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailureDemo.Expect" end time: Nov 06 18:03 +07
+"FailureDemo.Expect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: FailureDemo.Assert
+5/5 Test: FailureDemo.Assert
+Command: ""
+Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests
+"FailureDemo.Assert" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailureDemo.Assert" end time: Nov 06 18:03 +07
+"FailureDemo.Assert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 06 18:03 +07

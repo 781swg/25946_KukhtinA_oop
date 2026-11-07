@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmy_functions.a CMakeFiles/my_functions.dir/average.cpp.o CMakeFiles/my_functions.dir/average_random.cpp.o
+/usr/bin/ranlib libmy_functions.a

@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(robot robot.cpp factory.cpp)
+add_library(robot robot.cpp factory.cpp squad.cpp)
 target_include_directories(robot PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 add_executable(program main.cpp)
 target_link_libraries(program PRIVATE robot)

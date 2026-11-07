@@ -1,0 +1,5 @@
+if(EXISTS "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests/average_tests_e3b0c442_tests.cmake")
+  include("/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_5 /5dz/1-4/build/tests/average_tests_e3b0c442_tests.cmake")
+else()
+  add_test(average_tests_NOT_BUILT average_tests_NOT_BUILT)
+endif()
