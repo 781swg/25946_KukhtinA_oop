@@ -1,6 +1,6 @@
-AverageTests.NormalNumbers 11 0.00118029
-AverageTests.NegativeNumbers 11 0.000581038
-RandomTests.ResultInExpectedRange 11 0.000646606
+AverageTests.NormalNumbers 13 0.00110695
+AverageTests.NegativeNumbers 13 0.000483782
+RandomTests.ResultInExpectedRange 13 0.000442538
 FailureDemo.Expect 0 0
 FailureDemo.Assert 0 0
 ---
