@@ -1,10 +1,10 @@
-Start testing: Oct 23 15:50 +07
+Start testing: Nov 20 17:03 +07
 ----------------------------------------------------------
 1/5 Testing: RobotTests.DefaultConstructor
 1/5 Test: RobotTests.DefaultConstructor
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.DefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
-"RobotTests.DefaultConstructor" start time: Oct 23 15:50 +07
+"RobotTests.DefaultConstructor" start time: Nov 20 17:03 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -21,10 +21,10 @@ Note: Google Test filter = RobotTests.DefaultConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.30 sec
 ----------------------------------------------------------
 Test Passed.
-"RobotTests.DefaultConstructor" end time: Oct 23 15:50 +07
+"RobotTests.DefaultConstructor" end time: Nov 20 17:03 +07
 "RobotTests.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -32,7 +32,7 @@ Test Passed.
 2/5 Test: RobotTests.InitializationAndNormalization
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.InitializationAndNormalization" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
-"RobotTests.InitializationAndNormalization" start time: Oct 23 15:50 +07
+"RobotTests.InitializationAndNormalization" start time: Nov 20 17:03 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -52,7 +52,7 @@ Note: Google Test filter = RobotTests.InitializationAndNormalization
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RobotTests.InitializationAndNormalization" end time: Oct 23 15:50 +07
+"RobotTests.InitializationAndNormalization" end time: Nov 20 17:03 +07
 "RobotTests.InitializationAndNormalization" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -60,7 +60,7 @@ Test Passed.
 3/5 Test: RobotTests.GettersAndSetters
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.GettersAndSetters" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
-"RobotTests.GettersAndSetters" start time: Oct 23 15:50 +07
+"RobotTests.GettersAndSetters" start time: Nov 20 17:03 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -80,7 +80,7 @@ Note: Google Test filter = RobotTests.GettersAndSetters
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RobotTests.GettersAndSetters" end time: Oct 23 15:50 +07
+"RobotTests.GettersAndSetters" end time: Nov 20 17:03 +07
 "RobotTests.GettersAndSetters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -88,7 +88,7 @@ Test Passed.
 4/5 Test: RobotTests.CopyConstructor
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.CopyConstructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
-"RobotTests.CopyConstructor" start time: Oct 23 15:50 +07
+"RobotTests.CopyConstructor" start time: Nov 20 17:03 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -109,7 +109,7 @@ Note: Google Test filter = RobotTests.CopyConstructor
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RobotTests.CopyConstructor" end time: Oct 23 15:50 +07
+"RobotTests.CopyConstructor" end time: Nov 20 17:03 +07
 "RobotTests.CopyConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -117,7 +117,7 @@ Test Passed.
 5/5 Test: RobotTests.AssignmentAndSelfAssignment
 Command: "/Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests/robot_tests" "--gtest_filter=RobotTests.AssignmentAndSelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/tests
-"RobotTests.AssignmentAndSelfAssignment" start time: Oct 23 15:50 +07
+"RobotTests.AssignmentAndSelfAssignment" start time: Nov 20 17:03 +07
 Output:
 ----------------------------------------------------------
 Running main() from /Users/alekseikuhtin/Desktop/NSU 2 course/ООП/25946_KukhtinA_oop/task_6/6_2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -140,8 +140,8 @@ Note: Google Test filter = RobotTests.AssignmentAndSelfAssignment
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RobotTests.AssignmentAndSelfAssignment" end time: Oct 23 15:50 +07
+"RobotTests.AssignmentAndSelfAssignment" end time: Nov 20 17:03 +07
 "RobotTests.AssignmentAndSelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 23 15:50 +07
+End testing: Nov 20 17:03 +07

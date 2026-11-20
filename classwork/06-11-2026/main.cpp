@@ -1,4 +1,5 @@
 #include "cargo_robot.h"
+#include "autonomous_cargo_robot.h"
 
 #include <iostream>
 #include <stdexcept>
@@ -18,6 +19,13 @@ int main() {
         std::cout << "--- Maximum weight ---\n";
         const CargoRobot full("Heavy", 50);
         full.show_weight();
+
+        std::cout << "--- Autonomous cargo robot ---\n";
+        const AutonomousCargoRobot autonomous("AutoCarrier", 25);
+        autonomous.show_weight();
+        for (int i = 0; i < 5; ++i) {
+            autonomous.showMode();
+        }
 
         std::cout << "--- Overload ---\n";
         try {

@@ -1,5 +1,13 @@
-cd ../6_III
-cmake -S . -B build -DBUILD_TESTS=ON
-cmake --build build
-./build/program
-ctest --test-dir build --output-on-failure
+cmake -S 6_1 -B 6_1/build
+cmake --build 6_1/build
+./6_1/build/program
+
+cmake -S 6_2 -B 6_2/build -DBUILD_TESTS=ON
+cmake --build 6_2/build
+./6_2/build/program
+ctest --test-dir 6_2/build --output-on-failure
+
+cmake -S 6_3 -B 6_3/build -DBUILD_TESTS=ON
+cmake --build 6_3/build
+./6_3/build/program
+ctest --test-dir 6_3/build --output-on-failure

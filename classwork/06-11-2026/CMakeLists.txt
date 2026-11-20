@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(program main.cpp robot.cpp cargo_robot.cpp)
+add_executable(program main.cpp robot.cpp cargo_robot.cpp autonomous_cargo_robot.cpp)
